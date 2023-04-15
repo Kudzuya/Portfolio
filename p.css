@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+
+    background-color: #202023;
+}
+
+svg {
+    color: #FE6C03;
+    vertical-align: bottom;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+div {
+    display: inline-block;
+}
+
+div.header1,
+div.header2,
+div.header3,
+div.header4,
+div.light {
+    max-width: 100%;
+}
+
+.container {
+    font-size: 1.3em;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.general {
+    box-sizing: content-box;
+    width: 250px;
+}
+
+.aboutMe {
+    font-size: 1.5em;
+    color: #FE6C03;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+}
+
+.twenty {
+    margin-bottom: 5%;
+    padding-bottom: 2px;
+    color: #FE6C03;
+}
+
+.december {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 2px;
+    color: #FE6C03;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    background-color: #202023;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 5px;
+}
+
+bold {
+    font-weight: 900;
+}
+
+.header {
+    grid-area: header;
+    display: inline-block;
+}
+
+
+.main {
+    grid-area: main;
+}
+
+.grids {
+    width: 900px;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    grid-auto-rows: minmax(70px, auto);
+    margin-bottom: 5%;
+}
+
+.examp {
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+.examp2 {
+    border-radius: 15px;
+    width: 200px;
+    height: 300px;
+}
+
+.examp:hover {
+    cursor: pointer;
+    zoom: 150%;
+}
+
+.examp2:hover {
+    cursor: pointer;
+    zoom: 150%;
+}
+
+.hi {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #303033;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+.intro {
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+a {
+    color: #FE6C03;
+}
+
+button {
+    background-color: #FE6C03;
+    color: #FFFFFF;
+}
+
+.footer {
+    margin-left: 6%;
+    margin-top: 5%;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FE6C03;
+    padding-left: 0px;
+    text-align: start;
+    background-color: #202023;
+}
+
+.top2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 550px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-button {
+    grid-area: button;
+}
+
+.skills {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    align-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 7px;
+}
+
+.skills2 {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 580px;
+    align-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 7px;
+}
+
+.orange {
+    color: #FE6C03;
+}
+
+.star {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.git {
+    padding-left: 3px;
+}
+
+.underline {
+    text-decoration: wavy underline #FE6C03;
+
+}
+
+.bigFoot {
+
+    border-radius: 15px;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+a:link {
+    text-decoration: dashed;
+}
