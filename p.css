@@ -222,6 +222,9 @@ button {
 .git {
     padding-left: 3px;
 }
+.kk{
+    margin-top: 5%;
+}
 
 .underline {
     text-decoration: wavy underline #FE6C03;
@@ -229,13 +232,75 @@ button {
 }
 
 .bigFoot {
-
     border-radius: 15px;
     font-size: 20px;
     width: 150px;
     height: 40px;
 }
+.bigFoot:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: #FE6C03;
+}
 
 a:link {
     text-decoration: dashed;
+}
+
+/* mobile settings */
+@media screen and (max-width: 1000px) {
+body,.container,.item,.footer{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.main{
+    width: 90%;
+}
+.skills,.skills2,.bigFoot{
+    display: block;
+    width: fit-content;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+/* .skills{
+    margin-left: 27%;
+}
+ */
+/* .header{
+    margin-left: auto;
+    margin-right: auto;
+} */
+.bigFoot{
+    height: 50px;
+    width: 100%;
+    border-radius: 0;
+}
+.header{
+    display: block;
+    width: 80%;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top2{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper{
+    width: 100%;
+    display: block;
+}
+.grids{
+    width: 100%;
+    display: block;
+
+}
+.element{
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+}
 }
