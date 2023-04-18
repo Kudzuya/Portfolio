@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    text-decoration: none;
     list-style: none;
 }
 
@@ -58,7 +57,37 @@ div.light {
     padding-bottom: 2px;
     color: #FE6C03;
 }
-
+.fire{
+    filter: invert(55%) sepia(34%) saturate(7489%) hue-rotate(358deg) brightness(102%) contrast(102%);
+}
+.fire:hover{
+    filter: invert(26%) sepia(84%) saturate(7076%) hue-rotate(355deg) brightness(104%) contrast(121%);
+    transition-duration: 500ms;
+}
+/* .works:hover{
+    transition-duration: 1200ms;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #FE6C03; 
+    text-decoration-color: #FE6C03;
+    transform: scale(1.2);
+} */
+.works {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .works::after {
+    content: '';
+    width: 0px;
+    height: 1.2px;
+    display: block;
+    background: #FE6C03;
+    transition: 300ms;
+  }
+  
+  .works:hover::after {
+    width: 100%;
+  }
 .december {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -228,7 +257,6 @@ button {
 
 .underline {
     text-decoration: wavy underline #FE6C03;
-
 }
 
 .bigFoot {
@@ -261,17 +289,9 @@ body,.container,.item,.footer{
 .skills,.skills2,.bigFoot{
     display: block;
     width: fit-content;
-    /* margin-left: auto;
-    margin-right: auto; */
+
 }
-/* .skills{
-    margin-left: 27%;
-}
- */
-/* .header{
-    margin-left: auto;
-    margin-right: auto;
-} */
+
 .bigFoot{
     height: 50px;
     width: 100%;
